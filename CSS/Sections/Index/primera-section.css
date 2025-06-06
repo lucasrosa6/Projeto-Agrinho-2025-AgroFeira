@@ -1,0 +1,266 @@
+/* Primeira Section */
+#primeira-section {
+    background-color: var(--azul-ceu);
+    overflow: hidden;
+    background-image: url(../../../Imagens/Backgrounds/Montanha.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+/* Caixa Principal da Section */
+.box-primeira-section {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+/* Caixa de Pesquisa */
+.box-pesquisa {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.caixa-pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: var(--verde-escuro);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 5px 10px;
+    width: 60%;
+    margin: auto;
+    background-image: url(../../../Imagens/Icons/Lupa.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.caixa-pesquisa input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    background: transparent;
+    margin-left: 30px;
+    color: #ffffff;
+}
+
+.caixa-pesquisa input::placeholder {
+    color: var(--verde-clarinho-cinza);
+}
+
+/* Box da Nuvem */
+.box-nuvem {
+    position: relative;
+    width: 100px;
+    height: 40px;
+}
+
+.box-nuvem img {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    animation: movimento-nuvem 20s linear infinite;
+    user-select: none;
+}
+
+/* Animação da Nuvem */
+@keyframes movimento-nuvem {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: 1600px;
+    }
+}
+
+/* Galinha */
+.box-galinha {
+    position: absolute;
+    left: 75%;
+    top: 40%;
+    height: 100px;
+    width: 100px;
+    background-image: url(../../../Imagens/Personagens/Galinha.png);
+    background-position: center;
+    background-size: contain;
+}
+
+/* Porco */
+.box-porco {
+    position: absolute;
+    left: 33%;
+    top: 40%;
+    height: 80px;
+    width: 80px;
+    background-image: url(../../../Imagens/Personagens/Porco.png);
+    background-position: center;
+    background-size: contain;
+}
+
+/* Vaca */
+.box-vaca {
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    height: 200px;
+    width: 200px;
+    background-image: url(../../../Imagens/Personagens/Vaca.png);
+    background-position: center;
+    background-size: contain;
+}
+
+/* Responsividade Tablet em Pé */
+@media (min-width: 768px){
+    /* Primeira Section */
+    #primeira-section {
+        background-size: contain;
+    }
+
+    /* Box da Nuvem */
+    .box-nuvem {
+        width: 150px;
+    }
+
+    .box-nuvem img {
+        top: 45px;
+    }
+
+    /* Galinha */
+    .box-galinha {
+        top: 30%;
+        height: 150px;
+        width: 150px;
+    }
+
+    /* Porco */
+    .box-porco {
+        left: 35%;
+        top: 30%;
+        height: 120px;
+        width: 120px;
+    }
+
+    /* Vaca */
+    .box-vaca {
+        left: 3%;
+        top: 40%;
+        height: 250px;
+        width: 250px;
+    }
+}
+
+/* Responsividade Tablet de Lado */
+@media (min-width: 1024px){
+    /* Primeira Section */
+    #primeira-section {
+        background-size: cover;
+    }
+
+    /* Caixa Principal da Section */
+    .box-primeira-section {
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+
+    /* Caixa de Pesquisa */
+    .box-pesquisa {
+        width: 80%;
+    }
+
+    /* Box da Nuvem */
+    .box-nuvem {
+        width: 170px;
+    }
+
+    .box-nuvem img {
+        top: 40px;
+    }
+
+    /* Galinha */
+    .box-galinha {
+        top: 20%;
+        left: 75%;
+        height: 250px;
+        width: 250px;
+    }
+
+    /* Porco */
+    .box-porco {
+        left: 40%;
+        top: 20%;
+        height: 150px;
+        width: 150px;
+    }
+
+    /* Vaca */
+    .box-vaca {
+        left: 5%;
+        top: 30%;
+        height: 300px;
+        width: 300px;
+    }
+}
+
+/* Responsividade em Laptop e Desktop */
+@media (min-width: 1600px){
+    /* Caixa Principal da Section */
+    .box-primeira-section {
+        height: 800px;
+    }
+
+    /* Caixa de Pesquisa */
+    .box-pesquisa {
+        margin-top: 5%;
+        width: 60%;
+    }
+
+    .caixa-pesquisa {
+        padding: 10px 30px;
+        background-size: 35px;
+        background-position: 16px;
+    }
+
+    .caixa-pesquisa input {
+        font-size: 25px;
+    }
+
+    /* Box da Nuvem */
+    .box-nuvem {
+        width: 240px;
+    }
+
+    .box-nuvem img {
+        top: 80px;
+    }
+
+    /* Galinha */
+    .box-galinha {
+        top: 20%;
+        left: 75%;
+        height: 350px;
+        width: 350px;
+    }
+
+    /* Porco */
+    .box-porco {
+        left: 34%;
+        top: 10%;
+        height: 250px;
+        width: 250px;
+    }
+
+    /* Vaca */
+    .box-vaca {
+        left: 5%;
+        top: 30%;
+        height: 450px;
+        width: 450px;
+    }
+}

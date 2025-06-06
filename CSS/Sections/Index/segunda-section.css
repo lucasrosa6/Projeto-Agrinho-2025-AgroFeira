@@ -1,0 +1,215 @@
+/* Segunda Section */
+#segunda-section {
+    background-color: var(--azul-ceu);
+    overflow: hidden;
+    background-image: url(../../../Imagens/Backgrounds/Terra.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+/* Principal Caixa da Segunda Section */
+.box-segunda-section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    position: relative;
+}
+
+/* Box da Nuvem */
+.box-nuvem-agricultor {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.box-nuvem-agricultor > img {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    animation: movimento-nuvem 20s linear infinite;
+    user-select: none;
+}
+
+/* Sol */
+.box-sol {
+    width: 200px;
+    height: 200px;
+    right: 75%;
+    top:  10%;
+    position: absolute;
+}
+
+.box-sol > img {
+    width: 100%;
+    animation: rotacao 15s linear infinite;
+    user-select: none;
+    pointer-events: none;
+}
+
+@keyframes rotacao {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Frase */
+.de-maos-trabalhadoras-direto-a-sua-mesa {
+    left: 31%;
+    top: 15%;
+    width: 330px;
+    height: 150px;
+    background-image: url(../../../Imagens/Titulos/De\ mãos\ trabalhadoras\ direto\ à\ sua\ mesa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+/* Agricultor */
+.agricultor {
+    top: 25%;
+    left: 5%;
+    width: 310px;
+    height: 350px;
+    background-image: url(../../../Imagens/Personagens/Agricultor.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+/* Botão */
+.botao-agricultor {
+    position: absolute;
+    top: 41%;
+    left: 45%;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 560;
+    font-size: 18px;
+    background-color: var(--verde-saturado);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.botao-agricultor:hover {
+    background-color: var(--verde-escuro);
+    transform: scale(0.9);
+}
+
+.botao-agricultor:active {
+    background-color: var(--verde-cinza);
+}
+
+/* Responsividade Tablet em Pé */
+@media (min-width: 768px){
+    /* Segunda Section */
+    #segunda-section {
+        background-size: cover;
+    }
+
+    /* Frase */
+    .de-maos-trabalhadoras-direto-a-sua-mesa {
+        left: 32%;
+        top: 25%;
+        width: 500px;
+        height: 150px;
+        background-size: cover;
+    }
+
+    /* Nuvem */
+    .box-nuvem-agricultor > img {
+        top: 50%;
+    }
+
+    /* Sol */
+    .box-sol {
+        right: -10%;
+        top:  10%;
+    }
+
+    /* Agricultor */
+    .agricultor {
+        top: 16%;
+        left: 10%;
+        width: 320px;
+        height: 400px;
+    }
+
+    /* Botão */
+    .botao-agricultor {
+        top: 58%;
+        left: 60%;
+        width: 200px;
+        height: 60px;
+    }
+}
+
+/* Responsividade Tablet de Lado */
+@media (min-width: 1024px){
+    /* Frase */
+    .de-maos-trabalhadoras-direto-a-sua-mesa {
+        top: 20%;
+        width: 600px;
+        height: 180px;
+    }
+
+    /* Botão */
+    .botao-agricultor {
+        top: 55%;
+        left: 50%;
+        width: 200px;
+        height: 60px;
+    }
+}
+
+/* Responsividade em Laptop e Desktop */
+@media (min-width: 1600px){
+    /* Frase */
+    .de-maos-trabalhadoras-direto-a-sua-mesa {
+        top: 5%;
+        left: 36%;
+        width: 700px;
+        height: 300px;
+    }
+
+    /* Nuvem */
+    .box-nuvem-agricultor > img {
+        top: 50%;
+        width: 350px;
+    }
+
+    /* Sol */
+    .box-sol {
+        right: -5%;
+        top:  0%;
+        width: 300px;
+        height: 300px;
+    }
+
+    /* Agricultor */
+    .agricultor {
+        top: 0%;
+        left: 10%;
+        width: 400px;
+        height: 500px;
+    }
+
+    /* Botão */
+    .botao-agricultor {
+        top: 60%;
+        left: 45%;
+        width: 400px;
+        height: 120px;
+        font-size: 30px;
+    }
+}

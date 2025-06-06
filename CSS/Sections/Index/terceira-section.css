@@ -1,0 +1,205 @@
+/* Terceira Section */
+#terceira-section {
+    background-color: var(--marrom);
+    background-image: url(../../../Imagens/Backgrounds/Embaixo\ da\ Terra.png);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+/* Caixa principal da Terceira Section */
+.box-terceira-section {
+    width: 100%;
+    height: auto;
+}
+
+/* Titulo */
+.contato {
+    width: 200px;
+    height: 90px;
+    background-image: url(../../../Imagens/Titulos/Contato\ -\ Branco.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+}
+
+/* Caixa de Contato */
+.box-contato {
+    width: 90%;
+    margin: 0px auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.box-contato > h2 {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 10px 10px;
+    color: #000000;
+    font-weight: 550;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Área de Preencher informações */
+.caixa-preenchimento-info {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+.caixa-preenchimento-info label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #8a8a8a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caixa-preenchimento-info > input,
+.caixa-preenchimento-info > textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.caixa-preenchimento-info:hover > input,
+.caixa-preenchimento-info:hover > textarea {
+    border: 1px solid #000000;
+}
+
+.caixa-preenchimento-info:active > input,
+.caixa-preenchimento-info:active > textarea {
+    border: 1px solid #000000;
+}
+
+.caixa-preenchimento-info > textarea {
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 50%;
+    max-width: 90%;
+}
+
+#mensagem {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Botão */
+.caixa-finalizacao {
+    text-align: center;
+}
+
+.caixa-finalizacao button {
+    background-color: var(--verde-saturado);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: -13px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.caixa-finalizacao button:hover {
+    background-color: var(--verde-escuro);
+    transform: scale(0.9);
+}
+
+.caixa-finalizacao button:active {
+    background-color: var(--verde-clarinho-cinza);
+}
+
+/* Responsividade Tablet em Pé */
+@media (min-width: 768px){
+    /* Terceira Section */
+    #terceira-section {
+        padding-top: 60px;
+    }
+
+    /* Caixa de Contato */
+    .box-contato {
+        width: 80%;
+    }
+
+    /* Área de Preencher informações */
+    .caixa-preenchimento-info > input,
+    .caixa-preenchimento-info > textarea {
+    width: 95%;
+    }
+    
+    .caixa-preenchimento-info > textarea {
+    max-width: 95%;
+    }
+}
+
+/* Responsividade Tablet de Lado */
+@media (min-width: 1024px){
+    /* Terceira Section */
+    #terceira-section {
+        padding-top: 80px;
+    }
+
+    /* Caixa de Contato */
+    .box-contato {
+        width: 70%;
+    }
+
+    /* Área de Preencher informações */
+    .caixa-preenchimento-info > input,
+    .caixa-preenchimento-info > textarea {
+    width: 95%;
+    }
+    
+    .caixa-preenchimento-info > textarea {
+    max-width: 95%;
+    }
+}
+
+/* Responsividade em Laptop e Desktop */
+@media (min-width: 1600px){
+    /* Terceira Section */
+    #terceira-section {
+        background-size: cover;
+        padding-top: 120px;
+    }
+
+    /* Titulo */
+    .contato {
+        width: 230px;
+        height: 120px;
+    }
+
+    /* Caixa de Contato */
+    .box-contato {
+        width: 60%;
+    }
+
+    .box-contato > h2 {
+        font-size: 32px;
+    }
+
+    /* Área de Preencher informações */
+    .caixa-preenchimento-info label {
+        font-size: 26px;
+    }
+
+    .caixa-preenchimento-info > input,
+    .caixa-preenchimento-info > textarea {
+        width: 93.5%;
+        padding: 20px;
+        font-size: 26px;
+    }
+
+    /* Botão */
+    .caixa-finalizacao button {
+        padding: 16px 45px;
+        font-size: 32px;
+    }
+}

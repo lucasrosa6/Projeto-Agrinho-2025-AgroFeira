@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/Personagens/Galinha.png" type="image/x-icon">
+    <title>AgroFeira</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+            <!-- Menu de Navegação -->
+            <div id="cabecalho">
+                <div class="box-header">
+                    <div class="box-logo"></div>
+                    <nav class="box-area-usuario">
+                        <ul>
+                            <li><a href="#"><img src="Imagens/Icons/Perfil.png" alt="Perfil do Usuário"></a></li>
+                            <li><a href="#"><img src="Imagens/Icons/Carrinho de Compras - Verde Escuro.png" alt="Carrinho de Compras"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="index.html"><img src="Imagens/MenuNav/Início.png" alt="Início"></a></li> <span class="separador-menu-nav">|</span>
+                    <li><a href="#produtos-ir"><img src="Imagens/MenuNav/Produtos.png" alt="Produtos"></a></li> <span class="separador-menu-nav">|</span>
+                    <li><a href="#"><img src="Imagens/MenuNav/Agricultores.png" alt="Agricultores"></a></li> <span class="separador-menu-nav">|</span>
+                    <li><a href="#contato-ir"><img src="Imagens/MenuNav/Contato.png" alt="Contato"></a></li>
+                </ul>
+            </nav>
+    </header>
+    <!-- Primeira Sessão -->
+    <section id="primeira-section">
+        <div class="box-primeira-section">
+            <div class="box-pesquisa">
+                <form class="caixa-pesquisa">
+                    <input type="text" placeholder="Pesquisar">
+                </form>
+            </div>
+            <div class="box-nuvem">
+                <img src="Imagens/Backgrounds/Nuvem.png" alt="Nuvem" draggable="false">
+            </div>
+            <div class="box-vaca"></div>
+            <div class="box-porco"></div>
+            <div class="box-galinha"></div>
+        </div>
+    </section>
+    <!-- Conteúdo Principal -->
+    <main id="conteudo-principal">
+        <div class="box-conteudo-principal">
+            <article class="folha">
+                <h1>Sobre a AgroFeira</h1>
+                <p>
+                    A <strong><em>AgroFeira</em></strong> é uma empresa voltada para fortalecer a conexão entre o campo e a cidade. Nosso objetivo é aproximar os agricultores das famílias urbanas, oferecendo produtos frescos, naturais e de qualidade diretamente de quem planta para quem consome. 
+                </p>
+                    <hr>
+                <p>
+                    Por meio da nossa plataforma, as pessoas da cidade podem comprar alimentos locais e até fazer encomendas exclusivas, valorizando o trabalho dos produtores rurais e promovendo uma relação mais justa, saudável e sustentável.
+                </p>
+            </article>
+            <div class="oque-temos-para-oferecer"></div>
+            <div class="box-categorias" id="produtos-ir">
+                <div class="categorias"></div>
+                    <div class="categorias-lado-lado">
+                    <div class="opcoes-categorias">
+                        <a href="#" class="frutas-categoria">
+                            <button>
+                                <h3>Frutas</h3>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="opcoes-categorias">
+                        <a href="#" class="vegetais-categoria">
+                            <button>
+                                <h3>Vegetais</h3>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="opcoes-categorias-industrializados">
+                        <a href="#" class="industrializados-categoria">
+                            <button>
+                                <h3>Industrializados</h3>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="opcoes-categorias">
+                        <a href="#" class="sementes-categoria">
+                            <button>
+                                <h3>Sementes</h3>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="produtos"></div>
+                <div class="ladolado">
+                    <div class="box-organizar-produtos">
+                        <div class="produto">
+                            <figure>
+                                <img src="Imagens/Produtos/Mel Puro da Serra.png" alt="Mel puro da Serra">
+                                <figcaption>Mel Puro</figcaption>
+                                <h5>R$ 15,00</h5>
+                            </figure>
+                            <button>
+                                <p>Adicionar ao Carrinho</p>
+                            </button>
+                        </div>
+                        <div class="produto">
+                            <figure>
+                                <img src="Imagens/Produtos/Leite de vaca fresco.png" alt="Leite de vaca Fresco">
+                                <figcaption>Leite de Vaca</figcaption>
+                                <h5>R$ 5,00</h5>
+                            </figure>
+                            <button>
+                                <p>Adicionar ao Carrinho</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="box-organizar-produtos">
+                        <div class="produto">
+                            <figure>
+                                <img src="Imagens/Produtos/Queijo artesanal.png" alt="Queijo Artesanal">
+                                <figcaption>Queijo</figcaption>
+                                <h5>R$ 20,00</h5>
+                            </figure>
+                            <button>
+                                <p>Adicionar ao Carrinho</p>
+                            </button>
+                        </div>
+                        <div class="produto">
+                            <figure>
+                                <img src="Imagens/Produtos/Berinjela.png" alt="Berinjela">
+                                <figcaption>Berinjela</figcaption>
+                                <h5>R$ 10,00</h5>
+                            </figure>
+                            <button>
+                                <p>Adicionar ao Carrinho</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <button class="ver-mais">
+                    Ver Mais
+                </button>
+            </div>
+        </div>
+    </main>
+    <!-- Divisor -->
+    <div class="divisor-conteudo-p-segunda-s"></div>
+    <!-- Segunda Sessão -->
+    <section id="segunda-section">
+        <div class="box-segunda-section">
+            <div class="box-nuvem-agricultor">
+                <img src="Imagens/Backgrounds/Nuvem.png" alt="Nuvem" draggable="false">
+            </div>
+            <div class="box-sol">
+                <img src="Imagens/Backgrounds/Sol.png" alt="Sol" draggable="false">
+            </div>
+            <div class="de-maos-trabalhadoras-direto-a-sua-mesa"></div>
+            <div class="agricultor"></div>
+            <button class="botao-agricultor">Clique para ver sobre nossos Agricultores</button>
+        </div>
+    </section>
+    <!-- Terceira Sessão -->
+    <section id="terceira-section">
+        <div class="box-terceira-section">
+            <div class="contato" id="contato-ir"></div>
+            <div class="box-contato">
+                <h2>Alguma dúvida?<br>Respondemos imediatamente</h2>
+                <form>
+                <div class="caixa-preenchimento-info">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome">
+                </div>
+                <div class="caixa-preenchimento-info">
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="caixa-preenchimento-info">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                </div>
+                <div class="caixa-finalizacao">
+                    <button type="submit">Enviar</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Rodapé -->
+    <footer id="rodape">
+        <div class="box-rodape-principal">
+            <div class="logo-branca"></div>
+            <hr class="linha esconder-linha">
+            <ul class="lista-links-rodape">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#produtos-ir">Produtos</a></li>
+                <li><a href="#">Agricultores</a></li>
+                <li><a href="#contato-ir">Contato</a></li>
+            </ul>
+            <hr class="linha esconder-linha aparecer-linha">
+            <div class="copyright">Lucas do Nascimento Rosa © Copyright 2025 Todos os Direitos Reservados</div>
+        </div>
+    </footer>
+</body>
+</html>

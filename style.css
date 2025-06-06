@@ -1,0 +1,50 @@
+/* Conexão com outros CSS */
+
+/* Reset */
+@import url(reset.css);
+
+/* Index */
+/* Header e Main */
+@import url(CSS/Header/Index/header.css);
+@import url(CSS/Header/Index/nav.css);
+
+/* Página Inteira */
+@import url(CSS/Sections/Index/primera-section.css);
+@import url(CSS/Main/Index/conteudo-principal.css);
+@import url(CSS/Sections/Index/segunda-section.css);
+@import url(CSS/Sections/Index/terceira-section.css);
+
+/* Rodapé */
+@import url(CSS/Footer/Index/rodape.css);
+
+/* Mochila */
+:root {
+    --azul-ceu: #bef2fb;
+    --verde-escuro: #2d542f;
+    --verde-escurinho: #4b6900;
+    --verde-saturado: #74c125;
+    --verde-clarinho-cinza: #739e82;
+    --verde-clarinho: #f3ffb6;
+    --verde-cinza: #7c8e7d;
+    --marrom-fraco: #efc5a6;
+    --marrom: #99621e;
+    --font-principal: sans-serif;
+}
+
+/* Pequenas Alterações*/
+
+body {
+    background-color: var(--azul-ceu);
+}
+
+.divisor-conteudo-p-segunda-s {
+    width: 100%;
+    height: 70px;
+    background: #F3FFB6;
+    background: linear-gradient(180deg, rgba(243, 255, 182, 1) 0%, rgba(190, 242, 251, 1) 100%);
+}
+
+.linha {
+    width: 90%;
+    border: #ffd0aa 1px solid;
+}

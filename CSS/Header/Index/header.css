@@ -1,0 +1,97 @@
+/* Header */
+#cabecalho {
+    background-color: var(--azul-ceu);
+}
+
+/* Caixa principal do Header */
+.box-header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.box-logo {
+    width: 200px;
+    height: 70px;
+    background-image: url(../../../Imagens/Logos/AgroFeira\ -\ Verde\ Escura.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* Área do Usuário */
+.box-area-usuario {
+    margin-right: 10px;
+    width: 100px;
+    height: 45px;
+}
+
+.box-area-usuario ul {
+    display: flex;
+}
+
+.box-area-usuario li {
+    padding: 0 2px;
+}
+
+.box-area-usuario img {
+    width: 100%;
+    user-select: none;
+    transition: transform 0.5s ease;
+}
+
+.box-area-usuario img:hover {
+    transform: scale(1.05);
+    user-select: none;
+    filter: drop-shadow(0px 0px 5px #ffffff);
+}
+
+/* Responsividade Tablet em Pé */
+@media (min-width: 768px){
+    /* Caixa principal do Header */
+    .box-header {
+    width: 80%;
+    height: 80px;
+    margin: 0px auto;
+    }
+}
+
+/* Responsividade Tablet de Lado */
+@media (min-width: 1024px){
+    /* Caixa principal do Header */
+    .box-header {
+    width: 75%;
+    height: 80px;
+    margin: 0px auto;
+    }
+}
+
+/* Responsividade em Laptop e Desktop */
+@media (min-width: 1600px){
+    /* Caixa principal do Header */
+    .box-header {
+    width: 90%;
+    height: 120px;
+    margin: 0px auto;
+    }
+
+    /* Logo */
+    .box-logo {
+        width: 260px;
+        height: 90px;
+        background-size: contain;
+    }
+
+    /* Área do Usuário */
+    .box-area-usuario {
+        margin-right: 10px;
+        width: 130px;
+        height: 60px;
+    }
+}
