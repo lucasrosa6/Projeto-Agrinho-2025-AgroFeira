@@ -40,6 +40,5 @@ Orientação: Prof. Me. Guilherme Gasparini Lovatto.
 
 ## Licença
 
-Este site foi feito como parte do Programa Agrinho 2025, na Categoria Programação, para fins educativos.
-
+Este site foi desenvolvido como parte do **Programa Agrinho 2025**, na **categoria Programação**, com finalidade exclusivamente educativa.
 
