@@ -23,8 +23,9 @@ A página foi desenvolvida utilizando HTML e CSS, demonstrando conhecimento em d
 
 ## Tecnologias utilizadas
 
-- HTML5: Usado para estruturar o site
-- CSS3: Usado para aplicar aparência visual do site, e adaptação do layout a diferentes tamanhos de tela (responsividade).
+- **Canva**: Utilizado para criar todo o protótipo visual do site, incluindo imagens, ícones e elementos gráficos, com recursos disponíveis por meio de uma conta com acesso premium.
+- **HTML5**: Usado para estruturar o site
+- **CSS3**: Usado para aplicar aparência visual do site, e adaptação do layout a diferentes tamanhos de tela (responsividade).
 
 ## Link do projeto
 
