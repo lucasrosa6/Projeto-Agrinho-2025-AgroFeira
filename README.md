@@ -5,10 +5,15 @@
 
 ## Sobre o projeto
 
-Eu sou Lucas do Nascimento Rosa e este é o meu projeto para o Agrinho 2025.  
-O site **AgroFeira** foi criado para mostrar como a tecnologia pode aproximar o campo e a cidade. A ideia foi fazer um site que valorize a agricultura familiar e os produtos que vêm das famílias que trabalham no campo.
+Projeto realizado pelo aluno Lucas do Nascimento Rosa, da turma 3D de Ciências Exatas, do Colégio Estadual José de Alencar, orientado pelo professor Guilherme Gasparini Lovatto, para participação no concurso Agrinho 2025.
 
-O site apresenta algumas categorias de produtos e personagens que representam o dia a dia da vida rural. O projeto foi feito usando HTML e CSS.
+O protótipo do site AgroFeira surgiu com a intenção de conectar o meio rural ao urbano através da tecnologia, destacando a importância da agricultura familiar e os alimentos produzidos por famílias do campo.
+A ideia central do protótipo é facilitar a venda direta entre agricultores e consumidores finais. Dessa forma, promove-se um consumo mais responsável, fortalece-se a economia das comunidades locais e assegura-se ao público o acesso a produtos naturais, frescos e com procedência garantida.
+
+O site AgroFeira apresenta um layout visualmente atrativo e temático, com elementos gráficos que remetem à vida no campo, como animais e um agricultor. A estrutura inclui categorias de produtos como frutas, vegetais, itens industrializados e sementes, além de uma vitrine com produtos como mel, leite, queijo e berinjela.
+Há também uma seção explicando a proposta da plataforma, que visa conectar produtores rurais diretamente aos consumidores urbanos, incentivando a valorização da agricultura familiar. O site conta com um campo de busca, botões de compra, e uma área de contato com formulário para dúvidas.
+O projeto foi desenvolvido utilizando HTML e CSS, demonstrando conhecimento em design responsivo, organização de conteúdo e uso de imagens para reforçar a proposta visual e temática do site.
+
 
 ## Objetivos
 
